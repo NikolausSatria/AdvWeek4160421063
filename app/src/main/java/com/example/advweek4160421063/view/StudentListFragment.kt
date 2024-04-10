@@ -34,6 +34,7 @@ class StudentListFragment : Fragment() {
         binding.recView.adapter = studentListAdapter
 
         observeViewModel()
+
     }
 
     fun observeViewModel() {
